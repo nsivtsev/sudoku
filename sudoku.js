@@ -30,9 +30,9 @@ function transpose(arr) {
         for (y = x + 1; y < 9; y++) {
             var temp = arr[x][y];
             arr[x][y] = arr[y][x];
-            arr[y][x] = temp
+            arr[y][x] = temp;
         }
-    return arr
+    return arr;
 };
 
 //создание массива из квадрата 3x3 
